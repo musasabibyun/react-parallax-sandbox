@@ -14,7 +14,7 @@ export const getScrollPadding = () => {
   return (getViewHeight() - BALLOON_HEIGHT) / 2;
 };
 
-export default function App() {
+export default function ReactScrollParallaxApp() {
   return (
     <ParallaxProvider>
       <Complete />

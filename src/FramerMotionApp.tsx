@@ -3,7 +3,7 @@ import React, { useRef, ReactNode } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
 
 // Appコンポーネントは変更なし
-export default function App() {
+export default function FramerMotionApp() {
   return <Complete />;
 }
 

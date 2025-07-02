@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax } from "react-scroll-parallax";
-import { getScrollPadding } from "../App";
+import { getScrollPadding } from "../ReactScrollParallaxApp";
 
 export const Step2One: React.FC = () => {
   return (
