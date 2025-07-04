@@ -68,7 +68,6 @@ const Complete: React.FC = () => {
         style={{
           width: "100%",
           height: "80vh", // ❌ This breaks in React 19
-          // height: "100vh", // ✅ This works in React 19
           overflowY: "scroll",
           backgroundColor: "#1A237E",
           padding: "20px",
