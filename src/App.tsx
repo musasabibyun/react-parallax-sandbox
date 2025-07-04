@@ -3,7 +3,7 @@ import { motion, useScroll, useTransform } from "motion/react";
 import "./styles.css";
 
 export default function App() {
-  return <Complete />;
+  return <Component />;
 }
 
 const BubbleParallax: React.FC<{
@@ -50,7 +50,7 @@ const BubbleParallax: React.FC<{
   );
 };
 
-const Complete: React.FC = () => {
+const Component: React.FC = () => {
   const scrollContainerRef = useRef<HTMLDivElement>(null);
 
   return (
