@@ -1,21 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import ReactScrollParallaxApp from "./ReactScrollParallaxApp";
-import FramerMotionApp from "./FramerMotionApp";
+import App from "./App";
 
 const rootElement = document.getElementById("root")!;
 const root = ReactDOM.createRoot(rootElement);
 
 root.render(
   <React.StrictMode>
-    {/*
-      react-scroll-parallax のテスト
-    */}
-    {/* <ReactScrollParallaxApp />  */}
-
-    {/* 
-      framer-motion のテスト
-    */}
-    <FramerMotionApp />
+    <App />
   </React.StrictMode>
 );
