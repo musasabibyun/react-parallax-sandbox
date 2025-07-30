@@ -10,7 +10,7 @@
   "main": "src/index.tsx",
   "dependencies": {
     "loader-utils": "3.2.1",
-    "motion": "12.23.0",
+    "motion": "^12.23.11",
     "react": "19.1.0",
     "react-dom": "19.1.0",
     "react-scripts": "5.0.1"
